@@ -42,7 +42,8 @@ body {
 }
 
 #logo:hover, #logo span:hover {
-	transition: 1s;
+	transition: 2s;
+	transition-duration: ;
 	text-shadow: 0 0 10px #FFF !important;
 
 }
@@ -177,6 +178,12 @@ p {
 	background-color: rgba(0, 0, 0, 0.4);
 	padding: 10px 0;
 	box-shadow: 0 0 30px 10px #000;
+	transition: 1s;
+}
+
+#welcome:hover {
+	padding: 10%;
+	box-shadow: 0 0 35px 15px #EB003B;
 }
 
 #about-me {
