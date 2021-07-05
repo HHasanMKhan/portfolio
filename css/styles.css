@@ -189,16 +189,28 @@ p {
 #about-me {
 	font-family: 'Inter', sans-serif;
 	border: solid white;
+	border-radius: 10px;
 	width: 975px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	background-color: rgba(255, 255, 255, 0.9);
 	padding: 10px 0;
 	box-shadow: 0 0 30px 10px #000;
+	margin-bottom: 20px;
 }
 
 #about-me h1 {
 	font-size: 60px;
 	font-weight: 600;
+	color: ghostwhite;
+}
+
+.project-box {
+	background-color: slategrey;
+	height: 100px;
+}
+
+#projects {
+	display: flex;
+	justify-content: space-around;
 }
