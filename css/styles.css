@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-	width: 1100px;
+	width: 1200px;
 	//	border: solid white;
 	margin: 0 auto;
 	padding: 0 15px;
@@ -122,7 +122,7 @@ h2 {
 	1px 1px 0 #FFF;
 }
 
-p {
+#welcome p {
 	font-size: 30px;
 	font-weight: 300;
 }
@@ -179,6 +179,7 @@ p {
 	padding: 10px 0;
 	box-shadow: 0 0 30px 10px #000;
 	transition: 1s;
+
 }
 
 #welcome:hover {
@@ -186,11 +187,10 @@ p {
 	box-shadow: 0 0 35px 15px #EB003B;
 }
 
-#about-me {
+/*#about-me {
 	font-family: 'Inter', sans-serif;
 	border: solid white;
 	border-radius: 10px;
-	width: 975px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -198,19 +198,44 @@ p {
 	box-shadow: 0 0 30px 10px #000;
 	margin-bottom: 20px;
 }
-
+*/
 #about-me h1 {
 	font-size: 60px;
 	font-weight: 600;
-	color: ghostwhite;
+	color: grey;
 }
 
 .project-box {
-	background-color: slategrey;
-	height: 100px;
+	background-color: rgba(74, 79, 84, 0.5);
+	padding: 20px;
+	width: 500px;
+	border-radius: 15px;
+	display: flex;
 }
 
-#projects {
+.project-box h2 {
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.project-box a {
+	color: white;
+}
+
+#projects-container {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	margin: 15px 100px;
+	flex-wrap: wrap;
+}
+
+p {
+	font-size: 20px;
+}
+
+
+#about-me {
+	background-image: url("../img/banner-5.jpg");
+	background-repeat: no-repeat;
 }
